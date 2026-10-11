@@ -460,3 +460,400 @@ html, body{
    line-height: 28px;
    color: #B9C6CF;
 }
+
+
+/* developer and system section */
+.developer-system{
+    height: 1300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F9FF;
+    gap: 80px;
+}
+
+.subdev-system{
+    height: 1236px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dev-infos{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dev-header{
+    height: 182px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.dev-headsmall{
+    height: 18px;
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    line-height: 18px;
+    color: #0aa6f5;
+}
+
+.dev-intro{
+   height: 60px;
+   width: 100%;
+   font-family: 'DM Sans', sans-serif;
+   font-size: 60px;
+   letter-spacing: -2.7px;
+   line-height: 60px;
+   color: #044262;
+}
+
+.dev-description{
+   height: 64px;
+   width: 600px;
+   font-family: 'DM Sans', sans-serif;
+   font-size: 18px;
+   line-height: 32px;
+   color: #647B7D;
+}
+
+.dev-card{
+    height: 494px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 80px;
+}
+
+.card2{
+    height: 494px;
+    width: 330px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 5px;
+    border-radius: 20px;
+    gap: 10px;
+}
+
+.devimg-container{
+    height: 375px;
+    width: 320px;
+    background-color: #DCEEE9;
+    border-radius: 20px;
+}
+
+.devsolo-info{
+    height: 92px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px 0px;
+}
+
+.dev-title{
+    height: 52px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.devicon-container{
+    height: 40px;
+    width: 40px;
+    background-color: #EDF1F6;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.devicon-container i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0aa6f5;
+}
+
+.dev-name{
+    height: 28px;
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #044262;
+}
+
+.dev-role{
+   height: 20px;
+   width: 100%;
+   font-family: 'DM Sans', sans-serif;
+   font-size: 14px;
+   line-height: 20px;
+   color: #718189;
+}
+
+.system-container{
+    height: 424px;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    background-color: #E8EEF2;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 115px;
+    border-radius: 30px;
+    gap: 70px;
+}
+
+.systemimg-container{
+    height: 360px;
+    width: 704px;
+}
+
+.system-img{
+    height: 360px;
+    width: 704px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.system-info{
+    height: 424px;
+    width: 432px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.oursystem{
+    height: 18px;
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    line-height: 18px;
+    color: #0aa6f5;
+}
+
+.system-title{
+   height: 80px;
+   width: 100%;
+   font-family: 'DM Sans', sans-serif;
+   font-size: 36px;
+   letter-spacing: -1.44px;
+   line-height: 40px;
+   color: #044262;
+}
+
+.system-description{
+   height: 84px;
+   width: 100%;
+   font-family: 'DM Sans', sans-serif;
+   font-size: 16px;
+   line-height: 28px;
+}
+
+
+
+/* contact section */
+.contact-section{
+    height: 600px;
+    width: 100%;
+    background-color: #F2F9FF;
+    display: flex;
+    justify-content: center;
+}
+
+.subcontact{
+    height: 494px;
+    width: 1300px;
+    background-color: #0aa6f5;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 230px;
+    padding: 20px 20px;
+}
+
+.contact-text{
+   height: 494px;
+   width: 476px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+}
+
+.dev-contact{
+   height: 430px;
+   width: 476px;
+   background-color: #343785;
+   border-radius: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 20px 20px;
+}
+
+.subdev-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.small-contact{
+   height: 12px;
+   width: 100%;
+   font-family: 'DM Sans', sans-serif;
+   font-size: 12px;
+   letter-spacing: 2.4px;
+   line-height: 16px;
+   color: #000000;
+}
+
+.h2-contact{
+   height: 240px;
+   width: 100%;
+   font-family: 'DM Sans', sans-serif;
+   font-size: 60px;
+   letter-spacing: -2.7px;
+   line-height: 75px;
+   color: white;
+}
+
+.foot-contact{
+   height: 18px;
+   width: 100%;
+   font-family: 'DM Sans', sans-serif;
+   font-size: 18px;
+   line-height: 32px;
+}
+
+.contact-title{
+   height: 14px;
+   width: 100%;
+   font-family: 'DM Sans', sans-serif;
+   font-size: 14px;
+   letter-spacing: 2.24px;
+   line-height: 20px;
+   color: white;
+}
+
+.contactcard-container{
+   height: 200px;
+   width: 396px;
+   display: flex;
+   flex-direction: column;
+}
+
+.card-contact{
+    height: 48px;
+    width: 396px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-contact i{
+    height: 20px;
+    width: 20px;
+    color: #DCEEE9;
+
+}
+
+.card-contact div{
+    height: 48px;
+    width: 127px;
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-number{
+   height: 24px;
+   width: 127px;
+   font-family: 'DM Sans', sans-serif;
+   font-size: 16px;
+   line-height: 24px;
+   color: white;
+}
+
+.contact-email{
+   height: 20px;
+   width: 127px;
+   font-family: 'DM Sans', sans-serif;
+   font-size: 14px;
+   line-height: 20px;
+   color: #B9C6CF;
+}
+
+
+/* footer section */
+footer{
+    height: 98px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container{
+   height: 32px;
+   width: 1200px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 800px;
+}
+
+.footer-logo{
+   height: 32px;
+   width: 153px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 5px;
+}
+
+.lower-logo{
+   height: 32px;
+   width: 32px;
+   object-fit: cover;
+}
+
+.lower-title{
+   font-family: 'DM Sans', sans-serif;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+.copyright{
+   font-family: 'DM Sans', sans-serif;
+   font-size: 14px;
+   line-height: 20px;
+}
