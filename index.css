@@ -99,6 +99,7 @@ html, body{
    display: flex;
    flex-direction: row;
    padding-inline: 50px;
+   background-color: #F2F9FF;
 }
 
 .main{
@@ -170,4 +171,241 @@ html, body{
    width: 706px;
    object-fit: cover;
    
+}
+
+
+/* Center info section */
+.info-section{
+   height: 123px;
+   width: 100%;
+   align-items: center;
+   border-color: black;
+   background-color: #FFF;
+   justify-content: center;
+   border-top: 1px solid #e5e7e6;
+   border-bottom: 1px solid #e5e7e6;
+}
+
+.sub-infosec{
+   height: 120px;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   padding: 10px 200px;
+   gap: 10px;
+   color: #044262;
+
+}
+
+.info-sched{
+   height: 88px;
+   width: 392px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   border-width: 10px;
+   padding: 20px 40px;
+   border-right: 1px solid #e5e7e6;
+}
+
+.fa-solid{
+   height: 24px;
+   width: 24px;
+   align-items: center;
+}
+
+.fa-clock{
+   color: #0aa6f5;
+}
+
+.fa-phone{
+   color: #0aa6f5;
+}
+
+.fa-location-dot{
+   color: #0aa6f5;
+}
+
+.sched-div{
+    height: 40px;
+    width: 171px;
+    display: flex;
+    flex-direction: column;
+}
+
+.upperinfo-text{
+    height: 16px;
+    width: 171px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1.68px;
+    line-height: 16px;
+    color: gray;
+}
+
+.lowerinfo-text{
+    height: 20px;
+    width: 171px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* Organizational chart section */
+.org-section{
+    height: 700px;
+    width: 100%;
+    align-items: center;
+    padding: 60px 150px;
+    background-color: #F2F9FF;
+}
+
+.suborg-section{
+   height: 600px;
+   width: 1200px;
+   display: flex;
+   flex-direction: row;
+}
+
+.org-img{
+   height: 550px;
+   width: 480px;
+   display: flex;
+   background-color: #DCE6EE;
+   align-items: center;
+   padding: 5px 5px;
+   border-radius: 40px;
+   justify-content: center;
+}
+
+.org{
+   height: 504px;
+   width: 384px;
+   object-fit: fill;
+   border-radius: 40px;
+   align-items: center;
+   position: sticky;
+}
+
+.divider{
+   height: 100%;
+   width: 200px;
+}
+
+.about-org{
+   height: 499px;
+   width: 629px;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+
+.upper-about{
+   height: 18px;
+   width: 100%;
+   font-family: 'DM Sans', sans-serif;
+   font-size: 12px;
+   letter-spacing: 2.4px;
+   line-height: 18px;
+   color: #0aa6f5;
+
+}
+
+.mid-about{
+   height: 225px;
+   width: 100%;
+   font-family: 'DM Sans', sans-serif;
+   font-size: 60px;
+   letter-spacing: -2.7px;
+   line-height: 74px;
+   color: #044262;
+}
+
+.about-span{
+   font-family: 'DM Serif Display', serif;
+   font-style: italic;
+
+}
+
+.main-about{
+   height: 96px;
+   width: 100%;
+   font-family: 'DM Sans', sans-serif;
+   font-size: 18px;
+   line-height: 32px;
+}
+
+
+/* Services section */
+.services{
+
+}
+
+.sub-service{
+
+}
+
+.upper-services{
+
+}
+
+.services-tag{
+
+}
+
+.head-services{
+
+}
+
+.tag1{
+
+}
+
+.tag2{
+
+}
+
+.spacer{
+
+}
+
+.card-div{
+
+}
+
+.card{
+
+}
+
+.card-icon{
+
+}
+
+.icon-container{
+
+}
+
+.fa-person-breastfeeding{
+
+}
+
+.fa-ribbon{
+
+}
+
+.fa-person-cane{
+
+}
+
+.icon-spacer{
+
+}
+
+.card h3{
+
+}
+
+.card p{
+    
 }
