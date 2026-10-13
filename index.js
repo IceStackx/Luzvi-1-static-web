@@ -45,3 +45,29 @@ const logoBtn = document.getElementById("logo-btn");
 logoBtn.addEventListener("click", () => {
     document.getElementById("heroSection").scrollIntoView({behavior: "smooth"});
 });
+
+
+
+const burger = document.getElementById("burger");
+const navMenu = document.getElementById("nav-menu");
+
+function setMenu(open) {
+  burger.classList.toggle("open", open);
+  navMenu.classList.toggle("open", open);
+  burger.setAttribute("aria-expanded", open);
+}
+
+// Open or close when the burger is clicked
+burger.addEventListener("click", () => {
+  setMenu(!navMenu.classList.contains("open"));
+});
+
+// Close the menu after choosing a link or the button
+navMenu.querySelectorAll("a, button").forEach(item => {
+  item.addEventListener("click", () => setMenu(false));
+});
+
+// Reset if the window is resized back to desktop
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 1024) setMenu(false);
+});
