@@ -6,6 +6,9 @@
     <link rel="preconnect" href="https://gstatic.com" crossorigin>
     <link href="https://googleapis.com" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=DM+Serif+Display:ital@1&display=swap" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
@@ -16,24 +19,24 @@
     <header class="header">
         <div class="sub-header">
             <a class="luzvi-header">
-                <img class="center-logo" src="assets/images/Luzvilogo.png">
+                <img class="center-logo" id="logo-btn" src="assets/images/Luzvilogo.png">
                 <span class="center-title">
                     <span class="luzvi-main">Luzviminda 1</span>
                     <span class="luzvi-submain">Healthcare Center</span>
                 </span>
             </a>
             <nav class="navbar">
-                <a class="navbar-btn">Home</a>
-                <a class="navbar-btn">About</a>
-                <a class="navbar-btn">Contact</a>
-                <button class="services-btn">Our Services</button>
+                <a class="navbar-btn" id="home-btn">Home</a>
+                <a class="navbar-btn" id="about-btn">About</a>
+                <a class="navbar-btn" id="contact-btn">Contact</a>
+                <button class="services-btn" id="services-btn">Our Services</button>
             </nav>
         </div>
     </header>
 
     
     <!--Hero section-->
-    <div>
+    <div   id="heroSection">
         <div class="frame">
             <div class="main">
               <div class="inner">
@@ -45,7 +48,7 @@
                 <p class="ptag">Personal healthcare that listens first. From everyday checkups to lifelong wellness, our team is here for the whole you.</p>
                 <div class="expl-div">
                   <a>
-                    <button class="explbtn">Explore</button>
+                    <button class="explbtn" id="explore-btn">Explore</button>
                   </a>
                 </div>
               </div>
@@ -86,7 +89,7 @@
 
     
     <!--Organizational chart-->
-    <section class="org-section">
+    <section class="org-section" id="orgSection">
         <div class="suborg-section">
             <div class="org-img">
                 <img class="org" src="assets/images/orgChart.jpg">
@@ -106,7 +109,7 @@
 
     
     <!--Services of the system-->
-    <section class="services">
+    <section class="services" id="servicesSection">
         <div class="sub-service">
             <div class="upper-services">
                 <div class="services-tag">
@@ -154,7 +157,7 @@
 
     
     <!--Other infos (Developers info, Systems info)-->
-    <section class="developer-system">
+    <section class="developer-system" id="exploreSection">
         <div class="subdev-system">
             <div class="dev-infos">
                 <div class="dev-header">
@@ -237,7 +240,7 @@
 
 
     <!--contacts section-->
-    <section class="contact-section">
+    <section class="contact-section" id="contactsSection">
         <div class="subcontact">
             <div class="contact-text">
                 <p class="small-contact">CONTACT US</p>
