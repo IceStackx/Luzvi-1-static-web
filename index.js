@@ -47,7 +47,7 @@ logoBtn.addEventListener("click", () => {
 });
 
 
-
+// for burger menu
 const burger = document.getElementById("burger");
 const navMenu = document.getElementById("nav-menu");
 
