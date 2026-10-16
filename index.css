@@ -143,7 +143,7 @@ footer { width: 100%; padding: 30px clamp(20px, 4vw, 50px); background-color: wh
 
 /* Mobile */
 @media (max-width: 768px) {
-  .sub-header { padding: 10px 20px; flex-wrap: wrap; justify-content: center; gap: 20px; }
+  .sub-header { padding: 10px 20px; flex-wrap: wrap; justify-content: center; gap: 130px; }
   .navbar { gap: 20px; flex-wrap: wrap; justify-content: center; }
   .frame, .suborg-section, .system-container { flex-direction: column; }
   .main { padding: 40px 0 20px; }
